@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e9706e3-f1d7-448e-aae4-83384a4e3ea0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/change.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encode.go" beforeDir="false" afterPath="$PROJECT_DIR$/encode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encode_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/encode_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +21,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2ZRglODBpMuN7YYIHArKFke3NS3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,7 +47,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestGetMd5Str2 in util">
     <configuration name="TestGetMd5Str in util" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="util" />
       <working_directory value="$PROJECT_DIR$" />
@@ -59,8 +59,20 @@
       <pattern value="^\QTestGetMd5Str\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestGetMd5Str2 in util" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="util" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="util" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGetMd5Str2\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGetMd5Str2 in util" />
         <item itemvalue="Go Test.TestGetMd5Str in util" />
       </list>
     </recent_temporary>
