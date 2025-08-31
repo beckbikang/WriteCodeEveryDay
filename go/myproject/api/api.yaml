@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: MyProject API
+  description: API documentation for MyProject
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Local development server
+paths:
+  /:
+    get:
+      summary: Welcome endpoint
+      description: Returns a welcome message
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "Welcome to MyProject!"
