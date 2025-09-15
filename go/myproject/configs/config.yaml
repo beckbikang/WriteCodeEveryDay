@@ -1,0 +1,23 @@
+# 应用程序配置
+app:
+  name: myproject
+  version: 1.0.0
+  
+# 服务器配置
+server:
+  port: 8080
+  host: localhost
+  
+# 数据库配置
+database:
+  driver: postgres
+  host: localhost
+  port: 5432
+  username: postgres
+  password: password
+  dbname: myproject
+  
+# 日志配置
+logging:
+  level: info
+  format: json
