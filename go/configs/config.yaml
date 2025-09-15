@@ -3,13 +3,55 @@ app:
   name: WriteCodeEveryDay
   version: 1.0.0
   port: 8080
+  grpc_port: 9090
+  jwt_secret: writecode_secret
+  jwt_expire: 3600
 
 database:
+  db_type: mysql
   host: localhost
-  port: 5432
+  port: 3306
   name: writecodedb
-  user: user
+  user: root
   password: password
+  table_prefix: 
+  charset: utf8mb4
+  parse_time: true
+  max_idle_conns: 10
+  max_open_conns: 30
+
+redis:
+  addr: 127.0.0.1:6379
+  password: 
+  db: 0
+  pool_size: 20
+  min_idle_conns: 5
+
+kafka:
+  brokers:
+    - localhost:9092
+  topic: user_registration
+  group: user_service_group
+
+consul:
+  addr: localhost:8500
+  scheme: http
+  datacenter: dc1
+  token: 
+
+etcd:
+  endpoints:
+    - localhost:2379
+  dial_timeout: 5
+  username: 
+  password:
+
+consul:
+  addr: localhost:8500
+
+etcd:
+  endpoints:
+    - localhost:2379
 
 log:
   level: info
